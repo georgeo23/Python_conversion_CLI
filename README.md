@@ -1,7 +1,7 @@
 # Python_conversion_CLI
 Welcome to my Python Unit Converter CLI
 
-To begin with code editor - 
+## To begin with code editor - 
 
 Click the green 'Code' button on the repo's page and click 'Download Zip'.
 
@@ -30,7 +30,7 @@ To enter a new conversion each time, just type 'python converter.py' or press yo
 
 
 
-To begin in your terminal -
+## To begin in your terminal -
 
 
 
@@ -56,7 +56,7 @@ To make a new conversion once finished, type 'python converter.py' again or simp
 
 
 
-Adding a unit - 
+## Adding a unit - 
 
 
 
