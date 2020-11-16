@@ -37,16 +37,16 @@ To enter a new conversion each time, just type 'python converter.py' or press yo
 Click the green 'Code' button on the repo's page and click 'Download Zip'.
 
 
-Open the file when it has downloaded, click back once and you will see 'Python_conversion_CLI.zip'.
+Open the file when it has downloaded, click back once and you will see 'Python_conversion_CLI-master.zip'.
 
 
 Right click on it and click 'extract all' to unzip it using your unzipping tool.
 
 
-Then, once you have done that you will see a 'Python_conversion_CLI' folder.
+Then, once you have done that you will see a 'Python_conversion_CLI-master' folder.
 
 
-Open up your terminal and go to the location of your folder, 'file_name/file_name/Python_conversion_CLI/' and simply type 'python converter.py'
+Open up your terminal and go to the location of your folder, 'file_name/file_name/Python_conversion_CLI-master/Python_conversion_CLI-master' and simply type 'python converter.py'
 
 
 Follow the instructions from the terminal and convert your desired units.
