@@ -99,7 +99,6 @@ def convert(string):
     elif typeA == typeB and unitA == unitB and number is not None:
         multiplier = y - p
         newnumber = number * 10**multiplier
-        print(unitA, unitB)
         return f'{newnumber} {split_string[3]}'
     # final check to see if the number is not None then it makes the conversion to the 2nd unit using the coefficient and the magnitude to produce the correct result.
     elif number is not None:
