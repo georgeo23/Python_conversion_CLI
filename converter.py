@@ -91,20 +91,21 @@ def convert(string):
     elif typeA != typeB:
         print('the units are not both of the same type, please try again')
         return 'units are not of the same type'
+    # if this point is reached, one or both of the inputted units are currently not in the dictionary and the user is told to make a suggestion to get it added.
+    elif typeA == "" or typeB == "":
+        print('the units you have entered are currently unable to be calculated, leave a suggestion and they can be added!')
+        return 'one or both units do not exist'
     # this checks to see if the units are the same type and measurement, if they are then no coefficients are needed, only the magnitude e.g 'centi' or '-2'.
     elif typeA == typeB and unitA == unitB and number is not None:
         multiplier = y - p
         newnumber = number * 10**multiplier
+        print(unitA, unitB)
         return f'{newnumber} {split_string[3]}'
     # final check to see if the number is not None then it makes the conversion to the 2nd unit using the coefficient and the magnitude to produce the correct result.
     elif number is not None:
         calcA = funcA(number*10**y)
         calcB = funcB(calcA*10**-p)
         return calcB
-    # if this point is reached, one or both of the inputted units are currently not in the dictionary and the user is told to make a suggestion to get it added.
-    else:
-        print('the units you have entered are currently unable to be calculated, leave a suggestion and they can be added!')
-        return 'one or both units do not exist'
 # this initiates the function upon starting up the program.
 if __name__ == "__main__":
     print(convert(get_user_input()))
