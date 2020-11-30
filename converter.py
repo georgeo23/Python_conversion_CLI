@@ -105,6 +105,7 @@ def convert(string):
         calcA = funcA(number*10**y)
         calcB = funcB(calcA*10**-p)
         return calcB
+    
 # this initiates the function upon starting up the program.
 if __name__ == "__main__":
     print(convert(get_user_input()))
